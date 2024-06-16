@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="styles.css">
+
+    <title>Dice Baby!</title>
+</head>
+<body>
+    <div class="title-container">
+        <div class="p1win"></div>
+        <div>
+            <h1 class="h1">Roll some dice</h1>
+        </div>
+       
+        <div class="p2win"></div>
+    </div>
+    
+    <div class="container">
+      <div class="dice-container">
+        <div class="dice-containers">
+          <h2>Player 1</h2>
+          <img id="dice1" src="/images/dice1.png">
+        </div>
+        <div class="dice-containers">
+          <h2>Player 2</h2>
+          <img id="dice2" src="/images/dice2.png">
+        </div>      
+      </div>
+    </div>
+    <div class="button-container">
+        <input type="button" value="Roll Da Dice" onclick="randomDice();"/>
+    </div>
+    
+   
+    
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
